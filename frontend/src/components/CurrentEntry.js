@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 
+
 // Prompts
 const prompts = [
   "What is on your mind today?",
@@ -47,7 +48,7 @@ export default function CurrentEntry({ mood, setMood, theme, setRefreshKey, user
     }
 
     try {
-      await axios.post("http://localhost:5000/api/entries", {
+      await axios.post(`${process.env.REACT_APP_API_URL}/api/entries`, {
         date,
         title,
         mood,

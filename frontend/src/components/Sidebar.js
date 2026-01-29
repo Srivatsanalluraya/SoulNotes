@@ -16,7 +16,7 @@ export default function Sidebar({ refreshKey, setSelectedEntry, user }) {
     if (!user?.id) return;
 
     axios
-      .get("http://localhost:5000/api/list", {
+      .get(`${process.env.REACT_APP_API_URL}/api/list`, {
         params: { userId: user.id }
       })
       .then((res) => setEntries(res.data))

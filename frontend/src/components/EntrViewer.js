@@ -30,7 +30,7 @@ export default function EntryViewer({
     try {
 
       await axios.delete(
-        `http://localhost:5000/api/entries/${entry.id}`,
+        `${process.env.REACT_APP_API_URL}/api/entries/${entry.id}`,
         {
           params: { userId: user.id }
         }
