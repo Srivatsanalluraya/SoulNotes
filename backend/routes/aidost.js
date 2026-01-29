@@ -1,5 +1,5 @@
 import express from "express";
-import supabase from "../services/supabaseClient.js";
+import supabase from "../services/supabaseclient.js";
 import { getAIDostInsight } from "../services/groqService.js";
 
 const router = express.Router();
