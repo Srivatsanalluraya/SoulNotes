@@ -5,7 +5,7 @@ import cors from "cors";
 import entryRoutes from "./routes/entries.js";
 import listRoutes from "./routes/list.js";
 import aidostRoutes from "./routes/aidost.js";
-
+  
 const app = express();
 
 app.use(cors());
