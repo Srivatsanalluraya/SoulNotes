@@ -9,7 +9,7 @@ import AuthModal from "./components/AuthModal";
 
 import supabase from "./supabaseClient";
 import { moodThemes } from "./themes/moods";
-
+  
 function App() {
 
   // ==========================
