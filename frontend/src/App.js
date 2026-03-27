@@ -103,6 +103,8 @@ function App() {
 
   }, []);
 
+  const some_function = () => { return "Something" }
+
 
   // ==========================
   // LANDING PAGE
