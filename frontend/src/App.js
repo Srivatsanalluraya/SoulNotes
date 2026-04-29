@@ -10,6 +10,7 @@ import AuthModal from "./components/AuthModal";
 import supabase from "./supabaseClient";
 import { moodThemes } from "./themes/moods";
 import "./App.css";
+import Bootstrap
 import "./themes/themes.css";s
 function App() {
 
@@ -88,7 +89,7 @@ function App() {
           }
         }
 
-
+        
         if (event === "SIGNED_OUT") {
           setUser(null);
           setShowDiary(false);
