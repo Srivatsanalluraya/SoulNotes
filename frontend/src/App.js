@@ -5,12 +5,11 @@ import Sidebar from "./components/Sidebar";
 import DiaryEditor from "./components/DiaryEditor";
 import AIDost from "./components/AIDost";
 import LandingPage from "./components/LandingPage";
-import AuthModal from "./components/AuthModal";
 
 import supabase from "./supabaseClient";
 import { moodThemes } from "./themes/moods";
 import "./App.css";
-
+import 
 import "./themes/themes.css";s
 function App() {
 
